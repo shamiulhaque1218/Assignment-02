@@ -220,6 +220,13 @@ nav ul {
     
     
 }
+.box:hover{
+    width: 250px;
+    height: 220px;
+    transition: width 1s ,height 1s;
+    
+    
+}
 
 /* our sponsor  */
 .our{
@@ -239,17 +246,54 @@ nav ul {
 .sponser{
     display: flex;
     gap: 150px;
-    margin-left: 240px;
+    margin-left: 320px;
     color: #727272;
 }
 .sponser img{
     filter: brightness(0);
 }
 
+/* bonus section************start********************  */
+.about{
+  margin-top: 130px;
+  margin-left: 440px;
+  background: #FFF8F3;
+  border-radius: 10px;
+  text-align: center;
+  width: 1200px;
+ height: 250px;
+ font-size: 35px;
+ margin-bottom: 500px;
+}
+.about-info{
+   background-color:#db7806;
+   height: 200px;
+   width: 500px;
+   
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    color: #FFF4E7;
+    
+        
+}
+.about-info:hover{
+    width: 600px;
+    height: 250px;
+    transition: width 2s ,height 2s;
+    
+    
+}
+
+
+/* bonus section ****************end**************** */
+
 /* footer  */
 .footer{
     width: 800px;
-    height: 85px;
+    height: 100px;
     font-size: 20px;
     background-color:  #FFF4E7;
     margin: 130px 240px 200px 240px;
